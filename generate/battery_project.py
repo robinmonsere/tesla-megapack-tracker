@@ -21,7 +21,7 @@ STATUS_CLASS_DI = {
 USE_CASE_EMOJI_LI = [
     # these just used for the legend
     ["📍", "📍", "location not exactly known"],
-    ["❤️", "❤️", "more than 1000 MWh / 1GWh"],
+    ["⚡️", "⚡️", "more than 1000 MWh / 1GWh"],
     # these just used for the legend
     ["📊", "📊", "government data available"],
     ["👤", "👤", "user data available"],
@@ -501,8 +501,8 @@ def setup_battery_project(csv_di, gov: GovShortData, gov_history) -> BatteryProj
     # add both heart for GWh projects
     heart_tooltip = ""
     if mwh >= 1000 or mw >= 1000:
-        emojis.append("❤️")
-        heart_tooltip = tooltip_for_emoji("❤️")
+        emojis.append("⚡️")
+        heart_tooltip = tooltip_for_emoji("⚡️")
 
     if csv.external_id:
         emojis.append("📊")
