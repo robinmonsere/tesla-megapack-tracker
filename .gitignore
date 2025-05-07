@@ -3,6 +3,7 @@ watchexec
 tmp_zip
 *.DS_Store
 .vscode
+.~lock.projects.csv#
 
 
 # python gitignore file from github
